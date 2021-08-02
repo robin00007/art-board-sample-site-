@@ -1,0 +1,1253 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* background-color:black; */
+  
+    /* background-image:radial-gradient(red,yellow); */
+    color:black;
+    font-size:62.5%;
+    font-family: 'Antonio', sans-serif;
+    background-color:#b3de81;
+}
+.amethyst_logo{
+    position:absolute;
+    top:0px;
+    left:3%;
+    display:inline-block;
+    height:100px;
+    width:170px;
+}
+.amethyst_logo img{
+    display:inline-block;
+    height:100px;
+    width:100px;
+}
+.Art_logo img{
+    display:inline-block;
+    height:100px;
+    width:100px;
+}
+.Art_logo{
+    position:absolute;
+    top:0px;
+    right:6.0%;
+    height:100px;
+    display:inline;
+}
+.taskbar{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: absolute;
+    top:0px;
+    left:0px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    border: 2px solid white;
+    height: 100px;
+    width:100vw;
+    
+    background-color: rgba(255, 255, 255, 0.096);
+    box-shadow: 0px 0px 30px white inset; 
+}
+.logo_text{
+    font-family: 'Bangers', cursive;letter-spacing:1.5px;
+}
+.taskbar a{
+     margin-left: 4rem;
+     font-size:2rem;
+     color: white;
+     font-family: 'Antonio', sans-serif;
+     
+}
+.a1{
+    margin-left:0px;
+}
+.taskbar .a1:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    
+    color: yellow;
+
+}
+.taskbar .a2:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    color:red;
+
+}
+.taskbar .a3:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    color: green;
+
+}
+.taskbar .a4:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    color: purple;
+
+}
+.taskbar .a5:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    color: pink;
+
+}
+.club_discription{
+    display:flex;
+    margin-top: 100px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    min-height:100vh;
+    max-width:100vw;
+    background-color:transparent;
+    background-image:url("./images/kishore.jpg") ;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+#myVideo{
+    position: absolute;
+    top:0% ;
+    left:0% ;
+    max-width: 100vw; 
+    min-height: 100vh;
+    z-index: -1;
+
+}
+.theme_dis{
+    text-align:center;
+    font-size: 2rem;
+    width:65vw;
+    height:auto;
+    /* display: none; */
+    /* animation:animate 3s linear 1;  */
+    /* background-color: yellow; */
+     
+}
+/* @keyframes animate{
+    0%{transform: translateX(-50%);}
+    
+} */
+    
+}
+.theme_dis h1{
+
+    font-family: 'Bangers', cursive;letter-spacing:5.5px;
+    font-size: 7.5rem;
+    font-family: 'Bangers', cursive;letter-spacing:5.5px;
+     
+    color:yellow;
+    text-shadow: 0px 0px  30px rgb(49, 48, 48);
+    
+}
+.theme_dis h2{
+
+    font-family: 'Bangers', cursive;letter-spacing:5.5px;
+    font-size: 3.5rem;
+    /* color:yellow; */
+    color:rgb(17, 192, 192);
+    text-shadow: 0px 0px  30px rgb(49, 48, 48);
+    
+}
+.theme_dis h3{
+    color:rgb(17, 192, 192);
+    text-shadow: 0px 0px  30px rgb(49, 48, 48);
+    margin-top: 120px;
+}
+
+ 
+
+
+.slider{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    height:200vh;
+    width:100vw;
+    background-color: rgba(255, 255, 0, 0.863);
+   
+    /* background-image:url("./images/Mogambo2.png"); */
+    /* background-image:radial-gradient(red,yellow); */
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+    border-top: 5px solid transparent;
+    /* box-shadow:0px 0px 150px rgb(255, 255, 0) ; */
+    background-color: #b3de81;
+
+    
+     
+     
+}
+.event{
+    position: relative;
+    height:20%;
+    width:55%;
+    color:black;
+    
+}
+.eventpage-heading{
+    height:100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width:100%;
+    /* background-color:purple; */
+}
+.eventpage-heading h1{
+    text-align:center;
+    font-size: 4rem;
+    font-family: 'Bangers', cursive;letter-spacing:1.5px;
+    color:purple;
+}
+.event_image{
+    height:100%;
+    width:40%;
+    background-color: yellow;
+    display: inline-block;
+
+}
+.event_details{
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:100%;
+    width:60%;
+    background-color:rgb(0, 128, 0);
+    z-index: 99;
+}
+.event_details1{
+    position:absolute;
+    top:0px;
+    left:0%;
+    height:100%;
+    width:60%;
+    background-color:rgb(0, 128, 0);
+    z-index: 99;
+}
+.instruction-displayer{
+    color:white;
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+.event_image1{
+    position:absolute;
+    top:0px;
+    right: 0%;
+    height:100%;
+    width:40%;
+    background-color: yellow;
+    display: inline-block;
+
+}
+.event img{
+    height:100%;
+    width:100%;
+}
+.event p{
+    font-family: 'Antonio', sans-serif;
+    font-size:1rem;
+    color: white;
+    padding:20px;
+}
+.footer{
+    height: 90vh;
+    width: 100vw;
+    font-size:2rem;
+    color:black;
+    background-color: white;
+    
+    background-image:url("./images/footer_.png");
+    background-repeat:repeat-x;
+    background-position-y:200px;
+     
+    
+    
+}
+.social-media-links{
+    display: flex;
+    justify-content: center ;
+     
+}
+.social-media-links a{
+    margin-left: 150px;
+    padding:5px;
+    color: green;
+    font-family: 'Antonio', sans-serif;
+}
+.social-media-links a:hover{
+    padding-bottom: 10px;
+    border-bottom:2px solid black;
+    color:black;
+    background-color:rgba(255, 255, 0, 0.219);
+     
+}
+.footer h1{
+    /* font-family: 'Bangers', cursive;letter-spacing:1.5px; */
+    font-family: 'Antonio', sans-serif;
+}
+
+.v-slider{
+    position:relative;
+    display: flex;
+ 
+    height:120vh;
+    width:100vw;
+    overflow-x: hidden;
+    
+    /* background-image:radial-gradient(red,yellow); */
+    background-color: #e4ea8c;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: center;
+     
+    
+}
+.container{
+
+    position:absolute;
+    justify-content: flex-end;
+    height: 100%;
+    width: 50%;
+    top: 0%;
+    right: 0%;
+    
+    /* background-color: green; */
+}
+.container1{
+
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+}
+.uper-slide{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: center;
+    width:100%;
+    height: 20%;
+    /* background-color:indigo; */
+     
+}
+button{
+    box-shadow: none;
+    border: none;
+    background-color:transparent;
+}
+.uper-slide button img{
+    height:50px;
+    width:70px;
+}
+.active-slide{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height:60%;
+    
+}
+.active-slide img{
+    height:100%;
+    width:100%;
+}
+.slider-image1{
+    position: absolute;
+    
+    height:95%;
+    width:70%;
+    background-color:powderblue;
+
+}
+.slider-image2{
+    position: absolute;
+    
+    height:95%;
+    width:70%;
+    background-color:rgb(11, 115, 129);
+
+}
+.slider-image3{
+    position: absolute;
+    
+    height:95%;
+    width:70%;
+    background-color:rgb(185, 80, 80);
+
+}
+.slider-image4{
+    position: absolute;
+    
+    height:95%;
+    width:70%;
+    background-color:yellow;
+
+}
+.slider-image5{
+    position: absolute;
+    
+    height:95%;
+    width:70%;
+    background-color:green;
+
+}
+.lower-slide{
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    width:100%;
+    height: 20%;
+    /* background-color:indigo; */
+    text-align: center;
+}
+.lower-slide button img{
+    background-color: transparent;
+    height:50px;
+    width:70px;
+}
+.check-button{
+    
+    position:absolute;
+    bottom: 35%;
+    display:flex;
+    height:auto;
+    width:100%;
+    align-items:flex-end ;
+    justify-content: center;
+}
+.check{
+    font-size:30px;
+    background-color:rgb(29, 15, 153) ;
+    border:3px solid whitesmoke;
+     color:white;
+    box-shadow: 0px 0px 20px black;
+    padding:20px 40px;
+    
+}
+.start{ 
+    padding-top: 30%;
+    font-size:90px;
+    text-align:center;
+}
+.start2{
+    font-size:50px;
+    text-align:center;
+}
+.check:hover{
+    background-color:rgba(0, 0, 0, 0.61);
+    border:3px solid white;
+    color: white;
+
+   
+    box-shadow: 0px 0px 20px white inset;
+
+}
+.check-button2{
+    margin-bottom: 100px;
+}  
+
+    ::-webkit-scrollbar {
+        width:0.2rem;
+       }
+       ::-webkit-scrollbar-track {
+             background-color:transparent;
+             box-shadow: inset 0 0 5px  rgba(24, 128, 102, 0.767);
+             border-radius:2%;
+       }
+       ::-webkit-scrollbar-thumb{
+             background-color:grey;
+             border-radius:10px;
+             box-shadow: inset 0px 0px 5px  rgb(55, 187, 154);
+       }
+
+
+       .game-discription{
+        text-align: center;
+        font-size:3.5rem ;
+        margin:0px auto;
+        margin-bottom: 50px;
+        font-family: 'Bangers', cursive;letter-spacing:1.5px;
+        color:purple;
+        /* justify-items: center; */
+      
+    }
+
+/* ###########################################Art shower######################################################### */
+/* ###########################################Art shower######################################################### */
+/* ###########################################Art shower######################################################### */
+.Art{
+    /* background-image:radial-gradient(red,yellow); */
+    background-color: #3f6c45;
+    display: inline-block;
+    height: 1000px;
+    width:100%;
+    text-align: center;
+    
+}
+.viewer{display: inline-block;
+    /* border: 1px solid white; */
+    height: 40%;
+    width: 450px;
+    background-image: url("./images/frame.png");
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    background-size:110% 110%;
+    background-repeat: no-repeat;
+    /* background-size:contain; */
+    text-align: center;
+    background-position-x:30%;
+    background-position-y:17%;
+    
+}
+.art{
+    /* background-color: rgb(48, 48, 46) ; */
+    background-image: url("./images/frame.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    display:inline-block;
+    height: 80px;
+    width: 80px;
+    margin-top: -10px;
+    margin-left: 50px;
+    margin-bottom: -30px;
+    text-align: center;
+}
+.art1{
+    /* background-color: rgb(48, 48, 46); */
+    background-image: url("./images/frame.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    display:inline-block;
+    height: 80px;
+    width: 80px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: -30px;
+}
+.art2{ position:relative;
+     top:0px;
+     left:0px;
+     /* background-color:black; */
+     background-image: url("./images/frame.png");
+     background-size:contain;
+     background-repeat: no-repeat;
+     display:inline-block;
+     height: 80px;
+     width: 80px;
+     
+}
+.art3{ 
+     /* background-color:rgb(48, 48, 46); */
+     background-image: url("./images/frame.png");
+     background-size:contain;
+     background-repeat: no-repeat;
+     display:inline-block;
+     height: 80px;
+     width: 80px;
+     margin-left: 50px;
+     margin-top: 0px;
+}
+.viewer_image{
+     /* background-color:rgba(255, 255, 0, 0.692);  */
+     height: 55%; 
+     width: 40%;
+     margin-left:2% ;
+     margin-top:70px ;
+     display: none;
+}
+
+.art:hover.viewer_image {
+    display: inline-block;
+}
+img{
+    display:inline-block;
+    height:100%;
+    width:100%;
+}
+/* ###########################################Art shower######################################################### */
+/* ###########################################Art shower######################################################### */
+
+
+.address{
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.089);
+}
+.address_details1{
+    height: auto;
+    width:400px;
+    text-align: center;
+    /* background-color:rgba(255, 0, 0, 0.103); */
+    box-shadow: 0px 0px 7px black;
+    border-radius: 10px;
+    padding: 50px;
+     
+}
+.address_details2{
+    height: auto;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    /* background-color:rgba(255, 255, 0, 0.342); */
+    padding: 50px;
+    box-shadow: 0px 0px 7px black;
+}
+.address_details3{
+    height: auto;
+    width: 400px;
+    text-align: center;
+    /* background-color:rgba(0, 128, 0, 0.185); */
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 0px 7px black;
+}
+
+
+
+
+ 
+
+ 
+
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+/* #######################################Media Query########################################################## */
+@media (max-width:1012px) and (min-width:600px) {
+    .taskbar a{
+        margin-left: 2rem;
+        font-size:1.2rem;
+        color: white;
+        font-family: 'Antonio', sans-serif;
+        
+   }
+   #myVideo{
+    position: absolute;
+    top:0% ;
+    left:0% ;
+    width: 100%; 
+    height:110vh;
+    z-index: 1;
+
+}
+   .footer{
+    height: 50vh;
+    width: 100vw;
+    font-size:2rem;
+    color:black;
+    
+    background-image:url("./images/footer_.png");
+    background-repeat:repeat-x;
+    z-index: 9999;
+    
+    
+}
+.social-media-links{
+    display: flex;
+    justify-content: center ;
+     
+}
+.social-media-links a{
+    margin-left: 20px;
+    font-size: 1rem;
+    font-family: 'Antonio', sans-serif;
+}
+.social-media-links a:hover{
+    padding-bottom: 10px;
+    border-bottom:2px solid black;
+    color:black;
+}
+.footer h1{
+    font-family: 'Bangers', cursive;letter-spacing:1.5px;
+    font-size:2rem;
+}
+   .club_discription{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:110vh;
+    min-height:100vh;
+    width:100vw;
+    /* background-color:yellow; */
+    background-image:url("./images/kishore.jpg") ;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+     }
+    .theme_dis{
+    text-align:center;
+    font-size: 1rem;
+    width:65vw;
+    height:auto;
+    /* background-color: yellow; */
+     
+    }
+    
+     .theme_dis h1{
+
+        font-family: 'Bangers', cursive;letter-spacing:5.5px;
+        font-size: 3.5rem;
+        color:yellow;
+        text-shadow: 0px 0px  30px rgb(49, 48, 48);
+        
+    }
+    .theme_dis h2{
+    
+        font-family: 'Bangers', cursive;letter-spacing:5.5px;
+        font-size: 1.5rem;
+        /* color:yellow; */
+        color:rgb(17, 192, 192);
+        text-shadow: 0px 0px  30px rgb(49, 48, 48);
+        
+    }
+    .theme_dis h3{
+        color:rgb(17, 192, 192);
+        text-shadow: 0px 0px  30px rgb(49, 48, 48);
+        margin-top: 120px;
+    }
+     .slider{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items:center;
+        height:200vh;
+        width:100vw;
+        background-color: rgba(255, 255, 0, 0.863);
+        background-image:url("./images/Mogambo2.png");
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+        background-position: center;
+        /* border-top: 5px solid black ; */
+        box-shadow:0px 0px 150px rgb(255, 255, 0) ;
+        
+         
+         
+    }
+    .event{
+        position: relative;
+        height:20%;
+        width:55%;
+        color:black;
+        
+        
+    }
+    .eventpage-heading{
+        height:100px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        width:100%;
+        /* background-color:purple; */
+    }
+    .eventpage-heading h1{
+        text-align:center;
+        font-size: 2rem;
+        font-family: 'Bangers', cursive;letter-spacing:1.5px;
+        color:purple;
+    }
+    .event_image{
+        height:100%;
+        width:40%;
+        background-color: yellow;
+        display: inline-block;
+    
+    }
+    .event_details{
+        position:absolute;
+        top:0px;
+        right:0px;
+        height:100%;
+        width:60%;
+        background-color:rgba(0, 128, 0, 0.664);
+        z-index: 99;
+    }
+    .event_details1{
+        position:absolute;
+        top:0px;
+        left:0%;
+        height:100%;
+        width:60%;
+        background-color:rgba(0, 128, 0, 0.623);
+        z-index: 99;
+    }
+    .event_image1{
+        position:absolute;
+        top:0px;
+        right: 0%;
+        height:100%;
+        width:40%;
+        background-color: yellow;
+        display: inline-block;
+    
+    }
+    .event img{
+        height:100%;
+        width:100%;
+    }
+    .event p{
+        font-family: 'Antonio', sans-serif;
+        font-size:0.5rem;
+        color: white;
+        padding:10px;
+    }
+ 
+
+    
+}
+@media (max-width:599px) and (min-width:374px) {
+    .taskbar a{
+        margin-left:0.5rem;
+        font-size:1.2rem;
+        color: white;
+        font-family: 'Antonio', sans-serif;
+        
+        
+   }
+   #myVideo{
+    position: absolute;
+    top:0% ;
+    left:0% ;
+    width: 100%; 
+    height:110vh;
+    z-index: -1;
+     
+
+}
+   .a5{
+       display: none;
+   }
+   .a4{
+       display: none;
+   }
+   .amethyst_logo img{
+    display:inline-block;
+    height:50px;
+    width:50px;
+    }
+    .Art_logo img{
+    display:inline-block;
+    height:50px;
+    width:50px;
+    }
+    .logo_text{
+        font-family: 'Bangers', cursive;
+        letter-spacing:1.5px;
+        font-size:1rem;
+    }
+    .footer{
+        height: 50vh;
+        width: 100vw;
+        font-size:2rem;
+        color:black;
+        
+        background-image:url("./images/footer_.png");
+        background-repeat:repeat-x;
+        z-index: 9999;
+        
+        
+    }
+    .social-media-links{
+        display: flex;
+        justify-content: center ;
+         
+    }
+    .social-media-links a{
+        font-size: 1rem;
+        margin-left: 50px;
+        font-family: 'Antonio', sans-serif;
+    }
+    .social-media-links a:hover{
+        padding-bottom: 10px;
+        border-bottom:2px solid black;
+        color:black;
+        
+    }
+    .footer h1{
+        font-family: 'Bangers', cursive;letter-spacing:1.5px;
+        font-size:2rem;
+    }
+    .club_discription{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:110vh;
+        min-height:100vh;
+        width:100vw;
+        /* background-color:yellow; */
+        background-image:url("./images/kishore.jpg") ;
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+    }
+    .theme_dis{
+        text-align:center;
+        font-size: 1rem;
+        width:65vw;
+        height:auto;
+        /* background-color: yellow; */
+         
+    }
+    .theme_dis h1{
+
+        font-family: 'Bangers', cursive;letter-spacing:5.5px;
+        font-size: 3.5rem;
+        color:yellow;
+        text-shadow: 0px 0px  30px rgb(49, 48, 48);
+        
+    }
+    .theme_dis h2{
+    
+        font-family: 'Bangers', cursive;letter-spacing:5.5px;
+        font-size: 1.5rem;
+        /* color:yellow; */
+        color:rgb(17, 192, 192);
+        text-shadow: 0px 0px  30px rgb(49, 48, 48);
+        
+    }
+    .theme_dis h3{
+        color:rgb(17, 192, 192);
+        text-shadow: 0px 0px  30px rgb(49, 48, 48);
+        margin-top: 120px;
+    }
+    .slider{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items:center;
+        height:200vh;
+        width:100vw;
+        background-color: rgba(255, 255, 0, 0.863);
+        background-image:url("./images/Mogambo2.png");
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+        background-position: center;
+        /* border-top: 5px solid black ; */
+        box-shadow:0px 0px 150px rgb(255, 255, 0) ;
+        
+         
+         
+    }
+    .event{
+        position: relative;
+        height:20%;
+        width:75%;
+        color:black;
+        
+        
+    }
+    .eventpage-heading{
+        height:100px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        width:100%;
+        /* background-color:purple; */
+    }
+    .eventpage-heading h1{
+        text-align:center;
+        font-size: 2rem;
+        font-family: 'Bangers', cursive;letter-spacing:1.5px;
+        color:purple;
+    }
+    .event_image{
+        height:100%;
+        width:40%;
+        background-color: yellow;
+        display: inline-block;
+    
+    }
+    .event_details{
+        position:absolute;
+        top:0px;
+        right:0px;
+        height:100%;
+        width:60%;
+        background-color:rgba(0, 128, 0, 0.664);
+        z-index: 99;
+    }
+    .event_details1{
+        position:absolute;
+        top:0px;
+        left:0%;
+        height:100%;
+        width:60%;
+        background-color:rgba(0, 128, 0, 0.623);
+        z-index: 99;
+    }
+    .event_image1{
+        position:absolute;
+        top:0px;
+        right: 0%;
+        height:100%;
+        width:40%;
+        background-color: yellow;
+        display: inline-block;
+    
+    }
+    .event img{
+        height:100%;
+        width:100%;
+    }
+    .event p{
+        font-family: 'Antonio', sans-serif;
+        font-size:0.6rem;
+        color: white;
+        padding:10px;
+    }
+
+
+
+}
+@media  (max-width:321px) {
+    .taskbar a{
+        margin-left:0.5rem;
+        font-size:1.2rem;
+        color: white;
+        font-family: 'Antonio', sans-serif;
+        
+        
+   }
+   #myVideo{
+    position: absolute;
+    top:0% ;
+    left:0% ;
+    width: 100%; 
+    height:110vh;
+    z-index: -1;
+
+}
+   .a5{
+       display: none;
+   }
+   .a4{
+       display: none;
+   }
+   .amethyst_logo img{
+    display:inline-block;
+    height:40px;
+    width:40px;
+    }
+    .Art_logo img{
+    display:inline-block;
+    height:40px;
+    width:40px;
+    }
+    .logo_text{
+        font-family: 'Bangers', cursive;
+        letter-spacing:1.5px;
+        font-size:1rem;
+    }
+    .footer{
+        height: 50vh;
+        width: 100vw;
+        font-size:2rem;
+        color:black;
+        
+        background-image:url("./images/footer_.png");
+        background-repeat:repeat-x;
+        z-index: 9999;
+        
+        
+    }
+    .social-media-links{
+        display: flex;
+        justify-content: center ;
+         
+    }
+    .social-media-links a{
+        margin-left: 20px;
+        font-size: 1rem;
+        color: green;
+        
+        font-family: 'Antonio', sans-serif;
+    }
+    .social-media-links a:hover{
+        padding-bottom: 10px;
+        border-bottom:2px solid black;
+        color:black;
+    }
+    .footer h1{
+        font-family: 'Bangers', cursive;letter-spacing:1.5px;
+        font-size:2rem;
+    }
+    .club_discription{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:110vh;
+        min-height:100vh;
+        width:100vw;
+        /* background-color:yellow; */
+        background-image:url("./images/kishore.jpg") ;
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+    }
+    .theme_dis{
+        text-align:center;
+        font-size: 1rem;
+        width:65vw;
+        height:auto;
+        /* background-color: yellow; */
+         
+    }
+    .theme_dis h1{
+
+        font-family: 'Bangers', cursive;letter-spacing:5.5px;
+        font-size: 3.5rem;
+        color:yellow;
+        text-shadow: 0px 0px  30px rgb(49, 48, 48);
+        
+    }
+    .theme_dis h2{
+    
+        font-family: 'Bangers', cursive;letter-spacing:5.5px;
+        font-size: 1.5rem;
+        /* color:yellow; */
+        color:rgb(17, 192, 192);
+        text-shadow: 0px 0px  30px rgb(49, 48, 48);
+        
+    }
+    .theme_dis h3{
+        color:rgb(17, 192, 192);
+        text-shadow: 0px 0px  30px rgb(49, 48, 48);
+        margin-top: 120px;
+    }
+    .slider{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items:center;
+        height:200vh;
+        width:100vw;
+        background-color: rgba(255, 255, 0, 0.863);
+        background-image:url("./images/Mogambo2.png");
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+        background-position: center;
+        /* border-top: 5px solid black ; */
+        box-shadow:0px 0px 150px rgb(255, 255, 0) ;
+        
+         
+         
+    }
+    .event{
+        position: relative;
+        height:20%;
+        width:75%;
+        color:black;
+        
+        
+    }
+    .eventpage-heading{
+        height:100px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        width:100%;
+        /* background-color:purple; */
+    }
+    .eventpage-heading h1{
+        text-align:center;
+        font-size: 2rem;
+        font-family: 'Bangers', cursive;letter-spacing:1.5px;
+        color:purple;
+    }
+    .event_image{
+        height:100%;
+        width:40%;
+        background-color: yellow;
+        display: inline-block;
+    
+    }
+    .event_details{
+        position:absolute;
+        top:0px;
+        right:0px;
+        height:100%;
+        width:60%;
+        background-color:rgba(0, 128, 0, 0.664);
+        z-index: 99;
+    }
+    .event_details1{
+        position:absolute;
+        top:0px;
+        left:0%;
+        height:100%;
+        width:60%;
+        background-color:rgba(0, 128, 0, 0.623);
+        z-index: 99;
+    }
+    .event_image1{
+        position:absolute;
+        top:0px;
+        right: 0%;
+        height:100%;
+        width:40%;
+        background-color: yellow;
+        display: inline-block;
+    
+    }
+    .event img{
+        height:100%;
+        width:100%;
+    }
+    .event p{
+        font-family: 'Antonio', sans-serif;
+        font-size:0.5rem;
+        color: white;
+        padding:10px;
+    }
+    
+}
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################## */
+/* #######################################Media end########################################################end
